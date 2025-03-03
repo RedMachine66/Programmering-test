@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tilfældigt tal</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Dit tilfældige tal</h1>
+        <div>
+            <p id="number"></p>
+        </div>
+        <button onclick="window.location.href='index.html'">Tilbage</button>
+        <script>
+            document.getElementById("number").innerText = Math.floor(Math.random()*100)+1;
+        </script>
+    </body>
+</html>
